@@ -40,6 +40,9 @@
   text-decoration : none;
   font-weight : bold;
   }
+  .nav__link:hover{
+    color: #1f69c9;
+  }
   .header__title {
   font-size : 66px;
   line-height : 76px;
@@ -74,6 +77,9 @@
   .header__link {
   color : #2f80ed;
   text-decoration : none;
+  }
+  .header__link:hover{
+    color: #1f69c9;
   }
   .header__address {
   margin : 0;
@@ -137,6 +143,10 @@
   color : #2f80ed;
   text-decoration : none;
   }
+  .events__more:hover {
+    color: #1f69c9; 
+  }
+
   .events__cover {
   flex-grow : 1;
   flex-shrink : 0;
@@ -364,7 +374,6 @@
   .footer {
     box-sizing: border-box;
     min-height: 224px; 
-    padding: 60px, 102px, 60px, 80px;
     background-color: #000000;
     padding: 60px 102px 60px 80px;
     color: white;
@@ -391,13 +400,12 @@
     width: 116px;
     display: flex;
     flex-direction: column;
-    align-items: top;
   }
   .footer__list {
     /* The code below removes the default browser styles for lists */
     list-style-type: none;
     padding: 0;
-    margin: 0, 20px, 0, 0;
+    margin: 0 20px 0 0;
   }
   
   .footer__list-item {
@@ -409,7 +417,7 @@
   .footer__column-heading {
     list-style-type: none;
     padding: 0;
-    margin: 0, 20px, 0, 0; 
+    margin: 0 20px 0 0; 
   }
 
   
@@ -419,13 +427,14 @@
     text-decoration: none;
     color: white;
     font-size: 16px; 
-    line-height: 20px; 
+    line-height: 20px;
   }
-  
+  .footer__column-link:hover{
+    color: #c1c1c1;
+  }
   .footer__social-icon {
     height: 16px; 
-    width: 16px; 
-    margin-right: 10px; 
+    width: 16px;  
   }
   
   .footer__copyright {
