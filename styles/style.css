@@ -226,13 +226,13 @@
     line-height: 30px;
     font-weight: 400;
     margin: 24px 0 0;
-    color: white; 
+    color: white;
   }
   .staff__cards {
     max-width: 760px;
     margin: 68px auto 0px;
     gap: 40px;
-    padding: 0px; 
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
