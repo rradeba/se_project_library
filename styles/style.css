@@ -242,7 +242,7 @@
     border-radius: 6px;
     padding: 32px 40px 20px 32px;
     box-sizing: border-box;
-    height: 420px; 
+     
     width: 360px;
   }
   
@@ -338,8 +338,8 @@
     line-height: 30px;
     font-weight: 500;
     z-index: 1;
-    max-width: 154px; 
-    display: flex; 
+    max-width: 154px;
+    display: flex;
     flex-direction: column; 
    
   }
@@ -357,7 +357,7 @@
   .about__paragraph {
     margin-top: 0;
     margin-bottom: 32px;
-    position: relative; 
+    position: relative;
     left: 120px;
   }
   
@@ -367,13 +367,13 @@
     height: 495px;
     border-radius: 50%;
     position: absolute;
-    top: -121px; 
+    top: -121px;
     left: -91px; 
   }
   
   .footer {
     box-sizing: border-box;
-    min-height: 224px; 
+    min-height: 224px;
     background-color: #000000;
     padding: 60px 102px 60px 80px;
     color: white;
@@ -392,7 +392,7 @@
   }
   
   .footer__column_content_social {
-    margin-left: 100px
+    margin-left: 100px;
   }
   
   .footer__logo {
@@ -426,8 +426,6 @@
     line-height: 20px;
     text-decoration: none;
     color: white;
-    font-size: 16px; 
-    line-height: 20px;
   }
   .footer__column-link:hover{
     color: #c1c1c1;
