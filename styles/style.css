@@ -360,9 +360,11 @@
   }
   
   .about__paragraph {
-    margin: 0;
     margin-bottom: 32px;
     position: relative;
+  }
+  .about__paragraph:last-of-type{
+    margin-bottom: 0;
   }
   
   .about__circle {
@@ -411,6 +413,10 @@
   
   .footer__list-item {
     margin-bottom: 16px; 
+  }
+
+  .footer__list-item:last-of-type {
+    margin-bottom: 0;
   }
   
   .footer__column-heading {
