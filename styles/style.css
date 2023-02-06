@@ -365,6 +365,7 @@
   }
   .about__paragraph:last-of-type{
     margin-bottom: 0;
+    margin-top: 0;
   }
   
   .about__circle {
@@ -418,7 +419,7 @@
   .footer__list-item:last-of-type {
     margin-bottom: 0;
   }
-  
+
   .footer__column-heading {
     margin: 0 0 20px;
     font-size: 16px;
